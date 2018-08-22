@@ -1,0 +1,19 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "Estudo de JS com TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detarso7/estudo-js-tdd.git"
+  },
+  "author": "Saulo de Tarso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/detarso7/estudo-js-tdd/issues"
+  },
+  "homepage": "https://github.com/detarso7/estudo-js-tdd#readme"
+}
