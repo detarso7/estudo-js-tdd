@@ -4,6 +4,8 @@
   "description": "Estudo de JS com TDD",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_module/.bin/eslint/ src*.js",
+    "prepush":"npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,9 +13,17 @@
     "url": "git+https://github.com/detarso7/estudo-js-tdd.git"
   },
   "author": "Saulo de Tarso",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/detarso7/estudo-js-tdd/issues"
   },
-  "homepage": "https://github.com/detarso7/estudo-js-tdd#readme"
+  "homepage": "https://github.com/detarso7/estudo-js-tdd#readme",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "husky": "^0.14.3"
+  }
 }
